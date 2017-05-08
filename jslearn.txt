@@ -1,0 +1,8 @@
+updating knowledge
+    1.<script>js代码</script>
+    无需<script type="text/javascript"></script>
+
+    2.大小写
+    请注意，JavaScript严格区分大小写，如果弄错了大小写，程序将报错或者运行不正常。
+
+    3.不要使用==比较，始终坚持使用===比较。
