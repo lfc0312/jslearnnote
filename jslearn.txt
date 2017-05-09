@@ -23,6 +23,7 @@ updating knowledge 来源：http://www.liaoxuefeng.com
             var name = '小明';
             var age = 10;
             var message = '你好，${name}，你今年${age}岁了';
+            最好`${age}`;
 字符串操作
     获取字符串某个指定位置的字符，使用array之类的下标操作，索引号从0开始
     var s = 'hello';
@@ -39,3 +40,18 @@ updating knowledge 来源：http://www.liaoxuefeng.com
         字符串截取的意思
         var s = 'hello, world';
         s.substring(0,5); //返回‘hello’ 从0到5 (不包括5)
+        s.substring(7);//从索引7开始到结束
+数组
+    1.给array的length赋值会导致array有变化
+    var arr = [1,2,3];
+    arr.length = 2;
+    arr;//arr变为[1,2]
+    在编写代码时，不建议直接修改Array的大小，访问索引时要确保索引不会越界。
+    slice
+    截取array部分元素
+    push,pop,unshift,shift,
+    sort
+    reverse
+    indexOf //搜索一个指定的元素的位置
+    concat //连接任意元素和数组，并自动拆开array
+    join //用指定的字符串连接起来 0755-25444585 固定电话
